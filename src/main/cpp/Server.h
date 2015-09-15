@@ -6,6 +6,9 @@
 #define BOOSTSERVER_SERVER_H
 
 #include <boost/log/trivial.hpp>
+#include <iostream>
+#include <boost/array.hpp>
+#include <boost/asio.hpp>
 
 namespace logging = boost::log;
 namespace sinks = boost::log::sinks;
